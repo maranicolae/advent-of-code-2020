@@ -38,7 +38,7 @@ int three_sum(vector<int>& nums, int target) {
 
 int main() {
     ifstream in;
-    in.open("input");
+    in.open("day1.in");
     std::vector<int> nums;
 
     while(!in.eof()) {
